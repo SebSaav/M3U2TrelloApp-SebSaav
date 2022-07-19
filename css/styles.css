@@ -1,0 +1,21 @@
+
+/* -- components files -- */
+
+@import "components/buttons.css";
+@import "components/form-task.css";
+
+/* -- config files -- */
+
+@import "config/reset.css";
+@import "config/var.css";
+
+/* -- layout files -- */
+
+@import "layout/index.css";
+
+/* -- theme files -- */
+
+@import "theme/header.css";
+@import "theme/main.css";
+@import "theme/section.css";
+
