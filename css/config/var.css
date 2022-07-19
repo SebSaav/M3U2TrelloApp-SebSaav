@@ -1,0 +1,86 @@
+:root {
+
+    /* -- Colors Section -- */
+
+    --c-first-main: #DFF6FF;
+    --c-second-main: #00ACFF;
+    --c-third-main: #06283D;
+    --c-fourth-main: #0082BF;
+    --c-columns-main: #D9F2FF;
+
+    /* -- Accent Section -- */
+
+    --c-accent-lighter: #f8f8f8;
+    --c-accent-darker: #080d19;
+    
+    /* -- Text Color Section -- */
+
+    --c-text-light: var(--c-accent-lighter);
+    --c-text-dark: var(--c-accent-darker);
+
+    /* -- Fonts Section -- */
+
+    --f-first: "Oswald", sans-serif;
+    --f-second: "Raleway", sans-serif;
+
+    /* -- Primary Font Size Section -- */
+
+    --fp-xxlarge: 36px;
+    --fp-xlarge: 28px;
+    --fp-large: 24px;
+    --fp-base: 18px;
+    --fp-small: 16px;
+    --fp-smaller: 14px;
+
+    /* -- Secondary Font Size Section -- */
+
+    --fs-bigger: 26px;
+    --fs-big: 24px;
+    --fs-medium: 16px;
+    --fs-regular: 18px;
+    --fs-normal: 16px;
+    --fs-small: 14px;
+
+    /* -- Font Weight Section -- */
+
+    --fw-regular: 400;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+
+    /* -- Border Radius Section -- */
+
+    --border-radius-sm: 3px;
+    --border-radius-md: 5px;
+    --border-radius-lg: 10px;
+    --border-radius-full: 999px;
+
+    /* -- Scale Section -- */
+
+    --scale-xs: scale(0.98);
+
+    /* -- Transition Section -- */
+
+    --duration-transition-base: 300ms ease-in-out;
+
+    /* -- Line Height Section -- */
+
+    --line-height-heading: 1.3;
+    --line-height-body: 1.6;
+
+    /* -- Layers Section -- */
+
+    --z-layer-back: -10;
+    --z-layer-base: 1;
+    --z-layer-tooltip: 10;
+    --z-layer-fixed: 100;
+    --z-layer-modal: 1000;
+
+    /* -- Separator Section -- */
+
+    --gutter: 16px;
+
+    /* -- Others Section -- */
+
+    --max-width: 1240px;
+
+}
