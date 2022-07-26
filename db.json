@@ -1,0 +1,22 @@
+{
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Tarea 1",
+        "details": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id reprehenderit dolor laboriosam quis unde rem.",
+        "person": "Sebastián Saavedra",
+        "state": "to-do",
+        "deadline": 0,
+        "created": 0
+      },
+      {
+        "id": 2,
+        "title": "Tarea 2",
+        "details": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id reprehenderit dolor laboriosam quis unde rem.",
+        "person": "Sebastián Saavedra",
+        "state": "to-do",
+        "deadline": 0,
+        "created": 0
+      }
+    ]
+  }
