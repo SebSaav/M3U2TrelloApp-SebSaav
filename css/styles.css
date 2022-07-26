@@ -2,6 +2,7 @@
 /* -- components files -- */
 
 @import "components/buttons.css";
+@import "components/card-task.css";
 @import "components/form-task.css";
 
 /* -- config files -- */
@@ -15,7 +16,7 @@
 
 /* -- theme files -- */
 
+@import "theme/aside.css";
 @import "theme/header.css";
 @import "theme/main.css";
 @import "theme/section.css";
-
