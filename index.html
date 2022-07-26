@@ -15,7 +15,7 @@
       <div class="l-container">
         <a title="Trello" href="https://trello.com/u/sebsaav" target="_blank" rel="noreferrer noopener"><img src="assets/trello.png" width="40" height="40" alt="Trello" /></a> 
 				<a title="GitHub" href="https://github.com/SebSaav/" target="_blank" rel="noreferrer noopener"><img src="assets/github.png" width="40" height="40" alt="GitHub" /></a>
-        <button class="button button-primary" id="btnNewTask">Crear Tarea</button>
+        <button class="button button-primary" id="btnNewTask">Crear Nueva Tarea</button>
       </div>
     </header>
     <!-- End Header Section -->
@@ -46,95 +46,106 @@
         <!-- End Finalizadas Section-->
 
         <!-- Crear Section-->
-        <h3>
-          <section class="section-app">
-            <h2 class="section-status-title">Crear</h2>
-            <form class="form-new-task" id="formNewTask">
+        <aside class="aside-app" id="modalNewTask">
+          <div class="l-container">
+            <div class="form-container">
+              <h2 class="aside-form-title">Nueva Tarea</h2>
+              <form class="form-new-task" id="formNewTask">
 
-              <!-- Titulo Section-->
-              <div class="row-form">
-              <label for="titleTask" class="form-new-task__label" >Título:</label>
-              <input
-                id="titleTask"
-                name="titleTask"
-                type="text"
-                class="form-new-task_input"
-                placeholder="Escribe un título"
-                autocomplete = "off" 
-                required
-              />
-            </div>
-            <!-- End Titulo Section-->
+                <!-- Titulo Section-->
+                <div class="row-form">
+                  <label for="titleTask" class="form-new-task__label" >Título:</label>
+                  <input
+                    id="titleTask"
+                    name="titleTask"
+                    type="text"
+                    class="form-new-task_input"
+                    placeholder="Escribe un título"
+                    autocomplete = "off" 
+                    required
+                  />
+                </div>
+                <!-- End Titulo Section-->
 
-            <!-- Description Section-->
-            <div class="row-form">
-              <label for="descriptionTask" class="form-new-task__label" >Descripción:</label>
-              <input
-                id="descriptionTask"
-                name="descriptionTask"
-                type="text"
-                class="form-description_input"
-                placeholder="Describe tu tarea"
-                autocomplete = "off" 
-                required
-                height="10px"
-              />
-            </div>
-            <!-- End Description Section-->
+                <!-- Responsible Section-->
+                <div class="row-form">
+                  <label for="responsibleTask" class="form-new-task__label"
+                    >Responsable:</label>
+                    <input
+                    id="responsibleTask"
+                    name="responsibleTask"
+                    type="text"
+                    class="form-responsible_input"
+                    placeholder="Escribe un responsable"
+                    autocomplete = "off" 
+                    required
+                  />
+                </div>
+                <!-- End Responsible Section-->
 
-            <!-- Responsible Section-->
-            <div class="row-form">
-              <label for="responsibleTask" class="form-new-task__label"
-                >Responsable:</label>
-                <input
-                id="responsibleTask"
-                name="responsibleTask"
-                type="text"
-                class="form-responsible_input"
-                placeholder="Escribe un responsable"
-                autocomplete = "off" 
-                required
-              />
-            </div>
-            <!-- End Responsible Section-->
+                <!-- Description Section-->
+                <div class="row-form">
+                  <label for="detailsTask" class="form-new-task__label"
+                    >Descripción:</label
+                  >
+                  <textarea 
+                  class= "" 
+                  name="detailsTask" 
+                  id="detailsTask cols="3" 
+                  rows="3" 
+                  placeholder="Ingresa el detalle de la tarea"></textarea>
+                </div>
+                <!-- End Description Section-->
 
-            <!-- Task Time Section-->
-            <div class="row-form">
-              <label for="deadLineTask" class="form-new-task__label" required
-                >Plazo de Entrega:</label
-              >
-              <select name="deadLineTask" id="deadLineTask" required>
-                <option value="">Seleccionar</option>
-                <option value="oneDay">1 día</option>
-                <option value="twoDay">2 días</option>
-                <option value="threeDay">3 días</option>
-                <option value="fourDay">4 días</option>
-                <option value="fiveDay">5 días</option>
-                <option value="sixDay">6 días</option>
-                <option value="oneWeek">1 semana</option>
-                <option value="twoWeek">2 semanas</option>
-                <option value="threeWeek">3 semanas</option>
-                <option value="oneMonth">1 mes</option>
-              </select>
-            </div>
-            <!-- End Task Time Section-->
+                <!-- Task Time Section-->
+                <div class="row-form">
+                  <label for="deadLineTask" class="form-new-task__label" required
+                    >Plazo de Entrega:</label
+                  >
+                  <select name="deadLineTask" id="deadLineTask" required>
+                    <option value="">Seleccionar</option>
+                    <option value="oneDay">1 día</option>
+                    <option value="twoDay">2 días</option>
+                    <option value="threeDay">3 días</option>
+                    <option value="fourDay">4 días</option>
+                    <option value="fiveDay">5 días</option>
+                    <option value="sixDay">6 días</option>
+                    <option value="oneWeek">1 semana</option>
+                    <option value="twoWeek">2 semanas</option>
+                    <option value="threeWeek">3 semanas</option>
+                    <option value="oneMonth">1 mes</option>
+                  </select>
+                </div>
+                <!-- End Task Time Section-->
 
-            <!-- Buttons Section-->
-            <div class="row-form">
-              <div class="form-new-task__buttons">
-                <button class="button button-primary ghost" type="submit">Aceptar</button>
-                <button class="button button-secondary ghost" type="reset" id="btnCancelNewTask">Cancelar</button>
+                <!-- Buttons Section-->
+                <div class="row-form">
+                  <div class="form-new-task__buttons">
+                    <button class="button button-primary ghost" type="submit" id="btnNewTask">Aceptar</button>
+                    <button class="button button-secondary ghost" type="reset" id="btnCancelNewTask">Cancelar</button>
                   </div>
                 </div>
                 <!-- End Buttons Section-->
 
               </form>
-          </section>
-        </h3>
+            </div>
+          </div>
+        </aside>
         <!-- End Crear Section-->
       </div>
     </main>
     <!-- End Columns Section -->
-      <script src="js/index.js"></script>
+
+    <!-- External Resources Section-->
+    <script src="js/libraries/axios.js"></script>
+    <script src="js/libraries/draggable.js"></script>
+    <script src="js/libraries/hammer.js"></script>
+    <script src="js/libraries/moment.js"></script>
+    <!-- End External Resources Section-->
+
+    <!-- Internal Resources Section-->
+    <script src="js/helpers/toggleModal.js"></script>
+    <!-- End Internal Resources Section-->
+    
     </body>
     </html>
