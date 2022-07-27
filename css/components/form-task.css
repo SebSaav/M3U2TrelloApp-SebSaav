@@ -10,8 +10,6 @@
   display: flex;
   flex-direction: column;
   gap: calc(var(--gutter) / 4);
-  width : auto; 
-  height : auto;
 }
 
 .form-new-task__label

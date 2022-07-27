@@ -28,11 +28,6 @@
   background-color: var(--c-second-main);
 } 
 
-.button.button-primary.ghost:hover
-{
-  background-color: var(--c-fourth-main);
-} 
-
 .button.button-secondary.ghost:hover
 {
   background-color: var(--c-fourth-main);

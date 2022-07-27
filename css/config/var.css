@@ -18,6 +18,10 @@
     --c-text-light: var(--c-accent-lighter);
     --c-text-dark: var(--c-accent-darker);
 
+    /* -- Background Color Section -- */
+
+    --c-background-light: var(--c-accent-lighter);
+
     /* -- Fonts Section -- */
 
     --f-first: "Oswald", sans-serif;
@@ -54,6 +58,13 @@
     --border-radius-lg: 10px;
     --border-radius-full: 999px;
 
+    /* -- Box Shadow Section -- */
+
+    --box-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --box-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --box-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
     /* -- Scale Section -- */
 
     --scale-xs: scale(0.98);
@@ -79,7 +90,7 @@
 
     --gutter: 16px;
 
-    /* -- Others Section -- */
+    /* -- Others -- */
 
     --max-width: 1240px;
 

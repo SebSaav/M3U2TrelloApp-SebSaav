@@ -8,6 +8,7 @@
   height: 100vh;
   padding: var(--gutter);
   background-color: var(--c-columns-main);
+  box-shadow: var(--box-shadow-lg);
   transform: translate(100%);
   will-change: transform;
   transition: transform var(--duration-transition-base);

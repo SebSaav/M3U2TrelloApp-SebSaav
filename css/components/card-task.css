@@ -1,8 +1,9 @@
 .card-task 
 {
+  border-style: solid;
+  border-color: var(--c-fourth-main) white white white;
   padding: var(--gutter);
   border-radius: var(--border-radius-md);
-  /* transition: var(--duration-transition-base); */
   cursor: pointer;
 }
 
