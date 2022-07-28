@@ -6,9 +6,9 @@ p{
 }
 .card-task__title{
   border-style: solid;
-  border-color: var(--c-columns-main) var(--c-columns-main) var(--c-fourth-main) var(--c-columns-main);
+  border-color: var(--c-fourth-main) var(--c-columns-main) var(--c-columns-main) var(--c-fourth-main);
   padding: var(--gutter);
-  border-radius: var(--border-radius-md);
+  border-radius: var(--border-radius-lg);
   cursor: pointer;
 }
 .card_task__responsible,
@@ -19,4 +19,12 @@ p{
   padding: var(--gutter);
   border-radius: var(--border-radius-full);
   cursor: pointer;
+}
+
+.section-status-title{
+  border-style: solid;
+  border-color: var(--c-fourth-main) var(--c-fourth-main)  var(--c-fourth-main) var(--c-fourth-main);
+  padding: var(--gutter);
+  border-radius: var(--border-radius-full);
+  text-align:center;
 }
