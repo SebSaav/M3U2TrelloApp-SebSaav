@@ -19,21 +19,21 @@ const createTask = (task) => {
 
   let taskResponsible = document.createElement("p");
   taskResponsible.classList.add("card_task__responsible");
-  taskResponsible.innerHTML = `<span class="card_task__responsible--tag-creator">Responsable:</span> ${task.person}`;
+  taskResponsible.innerHTML = `<span class="card_task__responsible--tag-creator"><strong>Responsible:</strong></span> ${task.person}`;
 
   let taskDetails = document.createElement("p");
   taskDetails.classList.add("card-task__details");
-  taskDetails.innerHTML = `<span class="card-task__details--task-details">Descripción:</span> ${task.details} `;
+  taskDetails.innerHTML = `<span class="card-task__details--task-details"><strong>Description:</strong></span> ${task.details} `;
 
   let taskDate = document.createElement("p");
   taskDate.classList.add("card-task__date");
-  taskDate.innerHTML = `<span class="card-task__date--tag-date">Plazo:</span> ${dateFormat(
+  taskDate.innerHTML = `<span class="card-task__date--tag-date"><strong>Deadline Task:</strong></span> ${dateFormat(
     task.deadline
   )}`;
 
   let taskCreate = document.createElement("p");
   taskCreate.classList.add("card-task__date");
-  taskCreate.innerHTML = `<span class="card-task__date--tag-date">Creación:</span> ${dateFormat(
+  taskCreate.innerHTML = `<span class="card-task__date--tag-date"><strong>Creation Date:</strong></span> ${dateFormat(
     task.created
   )}`;
 

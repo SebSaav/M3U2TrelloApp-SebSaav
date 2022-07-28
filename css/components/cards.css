@@ -1,0 +1,22 @@
+p{
+  flex-direction: column;
+  display: flex;
+  padding: var(--gutter);
+  font-size: var(--fs-normal);
+}
+.card-task__title{
+  border-style: solid;
+  border-color: var(--c-columns-main) var(--c-columns-main) var(--c-fourth-main) var(--c-columns-main);
+  padding: var(--gutter);
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+}
+.card_task__responsible,
+.card-task__details,
+.card-task__date{
+  border-style: solid;
+  border-color: var(--c-columns-main) var(--c-columns-main)  var(--c-fourth-main) var(--c-fourth-main);
+  padding: var(--gutter);
+  border-radius: var(--border-radius-full);
+  cursor: pointer;
+}

@@ -17,5 +17,6 @@
 /* -- components files -- */
 
 @import "components/buttons.css";
+@import "components/cards.css";
 @import "components/card-task.css";
 @import "components/form-task.css";

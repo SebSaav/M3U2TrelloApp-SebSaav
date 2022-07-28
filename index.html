@@ -15,7 +15,7 @@
       <div class="l-container">
         <a title="Trello" href="https://trello.com/u/sebsaav" target="_blank" rel="noreferrer noopener"><img src="assets/trello.png" width="40" height="40" alt="Trello" /></a> 
 				<a title="GitHub" href="https://github.com/SebSaav/" target="_blank" rel="noreferrer noopener"><img src="assets/github.png" width="40" height="40" alt="GitHub" /></a>
-        <button class="button button-primary" id="btnNewTask">Crear Nueva Tarea</button>
+        <button class="button button-primary" id="btnNewTask">Create New Task</button>
         
       </div>
     </header>
@@ -25,37 +25,37 @@
     <main class="main-app">
       <div class="l-container">
         
-        <!-- Por Hacer Section -->
+        <!-- To-Do Section -->
         <section class="section-app">
-          <h2 class="section-status-title" >Por Hacer</h2>
+          <h2 class="section-status-title" >To Do</h2>
           <div class="container-tasks" id="todoTasks"></div>
         </section>
-        <!-- End Por hacer Section -->
+        <!-- End To-Do Section -->
 
-        <!-- En Proceso Section -->
+        <!-- In Progress Section -->
         <section class="section-app">
-          <h2 class="section-status-title">En Proceso</h2>
+          <h2 class="section-status-title">In Progress</h2>
           <div class="container-tasks" id="progressTasks"></div>
         </section>
-        <!-- End En Proceso TareaSection -->
+        <!-- End In Progress TareaSection -->
 
-        <!-- Finalizadas Section -->
+        <!-- DoneTasks Section -->
         <section class="section-app">
-          <h2 class="section-status-title">Finalizado</h2>
+          <h2 class="section-status-title">Done / Ended</h2>
           <div class="container-tasks" id="doneTasks"></div>
         </section>
-        <!-- End Finalizadas Section-->
+        <!-- End DoneTasks Section-->
 
-        <!-- Crear Section-->
+        <!-- Create Section-->
         <aside class="aside-app" id="modalNewTask">
           <div class="l-container">
             <div class="form-container">
-              <h2 class="aside-form-title">Nueva Tarea</h2>
+              <h2 class="aside-form-title">New Task</h2>
               <form class="form-new-task" id="formNewTask">
 
-                <!-- Titulo Section-->
+                <!-- Title Section-->
                 <div class="row-form">
-                  <label for="titleTask" class="form-new-task__label" >Título:</label>
+                  <label for="titleTask" class="form-new-task__label" >Title:</label>
                   <input
                     id="titleTask"
                     name="titleTask"
@@ -66,12 +66,12 @@
                     required
                   />
                 </div>
-                <!-- End Titulo Section-->
+                <!-- End Title Section-->
 
                 <!-- Responsible Section-->
                 <div class="row-form">
                   <label for="responsibleTask" class="form-new-task__label"
-                    >Responsable:</label>
+                    >Responsible:</label>
                     <input
                     id="responsibleTask"
                     name="responsibleTask"
@@ -86,7 +86,7 @@
                 <!-- Description Section-->
                 <div class="row-form">
                   <label for="detailsTask" class="form-new-task__label"
-                    >Descripción:</label
+                    >Description:</label
                   >
                   <textarea 
                   class= "" 
@@ -100,20 +100,20 @@
                 <!-- Task Time Section-->
                 <div class="row-form">
                   <label for="deadLineTask" class="form-new-task__label"
-                    >Plazo de Entrega:</label
+                    >Deadline Time:</label
                   >
                   <select name="deadLineTask" id="deadLineTask">
-                    <option value="">Seleccionar</option>
-                    <option value="1">1 día</option>
-                    <option value="2">2 días</option>
-                    <option value="3">3 días</option>
-                    <option value="4">4 días</option>
-                    <option value="5">5 días</option>
-                    <option value="6">6 días</option>
-                    <option value="7">1 semana</option>
-                    <option value="14">2 semanas</option>
-                    <option value="21">3 semanas</option>
-                    <option value="28">1 mes</option>
+                    <option value="">Please select</option>
+                    <option value="1">1 day</option>
+                    <option value="2">2 days</option>
+                    <option value="3">3 days</option>
+                    <option value="4">4 days</option>
+                    <option value="5">5 days</option>
+                    <option value="6">6 days</option>
+                    <option value="7">1 week</option>
+                    <option value="14">2 weeks</option>
+                    <option value="21">3 weeks</option>
+                    <option value="28">1 month</option>
                   </select>
                 </div>
                 <!-- End Task Time Section-->
@@ -121,8 +121,8 @@
                 <!-- Buttons Section-->
                 <div class="row-form">
                   <div class="form-new-task__buttons">
-                    <button class="button button-primary ghost" type="submit" id="btnNewTask">Aceptar</button>
-                    <button class="button button-secondary ghost" type="reset" id="btnCancelNewTask">Cancelar</button>
+                    <button class="button button-primary ghost" type="submit" id="btnNewTask">Accept</button>
+                    <button class="button button-secondary ghost" type="reset" id="btnCancelNewTask">Cancel</button>
                   </div>
                 </div>
                 <!-- End Buttons Section-->
@@ -131,7 +131,7 @@
             </div>
           </div>
         </aside>
-        <!-- End Crear Section-->
+        <!-- End Create Section-->
       </div>
     </main>
     <!-- End Columns Section -->
