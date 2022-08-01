@@ -37,11 +37,21 @@ const createTask = (task) => {
     task.created
   )}`;
 
+  let taskEditButton = document.createElement('button');
+  taskEditButton.classList.add("task-edit-button");
+  taskEditButton.innerHTML = "Edit ⚙️";
+
+  let taskDeleteButton = document.createElement('button');
+  taskDeleteButton.classList.add("task-delete-button");
+  taskDeleteButton.innerHTML = "Delete 🗑️";
+
   newTask.appendChild(taskTitle);
   newTask.appendChild(taskResponsible);
   newTask.appendChild(taskDetails);
   newTask.appendChild(taskDate);
   newTask.appendChild(taskCreate);
+  newTask.appendChild(taskEditButton);
+  newTask.appendChild(taskDeleteButton);
 
   let columnToDo = document.querySelector("#todoTasks");
   let columnInProgress = document.querySelector("#progressTasks");

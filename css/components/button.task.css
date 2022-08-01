@@ -1,0 +1,62 @@
+/* -- Edit Button Section -- */
+
+.task-edit-button {
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: auto;
+    color: black;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #FF9300;
+    border: solid;
+    border-color: #000000;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+    margin: 10px;
+  }
+
+  .task-edit-button:hover {
+    background-color: #ffb54d;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+
+  }
+  .task-edit-button:active {
+    background-color: #cc7700;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+  }
+
+  /* -- Delete Button Section -- */
+
+  .task-delete-button {
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: auto;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #A10035;
+    border: solid;
+    border-color: #000000;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+    margin: 10px;
+  }
+    
+  .task-delete-button:hover {
+    background-color: #bd4d72;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+  }
+
+  .task-delete-button:active {
+    background-color: #81002b;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+  }

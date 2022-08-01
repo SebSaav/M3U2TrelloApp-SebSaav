@@ -14,8 +14,11 @@
 @import "theme/main.css";
 @import "theme/section.css";
 
-/* -- components files -- */
+/* -- utils files -- */
+@import "utils/draggable.css";
 
+/* -- components files -- */
+@import "components/button.task.css";
 @import "components/buttons.css";
 @import "components/cards.css";
 @import "components/card-task.css";
